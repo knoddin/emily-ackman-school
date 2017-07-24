@@ -1,10 +1,29 @@
 @import "settings";
 @import "foundation";
 
-.tag-line {
+$logo-blue: #9CC;
+$logo-red: #C33;
+$logo-yellow: #ff3;
+
+h3 {
+  background-color: $logo-blue;
   width: 100%;
 }
 
-.about-me {
+.tag-line {
+  font-family: 'Heebo', sans-serif;
+  width: 100%;
+}
+
+.about-me,
+.about-me-text {
+  font-family: 'Heebo', sans-serif;
+  width: 100%;
+}
+
+.goals,
+.goals-text {
+  font-family: 'Heebo', sans-serif;
+  font-size: 22px;
   width: 100%;
 }
