@@ -23,10 +23,6 @@ h3 {
   padding: 0;
 }
 
-// .links-section {
-//   margin-top: 14%;
-// }
-
 .button {
   border-radius: 20px;
   height: 80px;
@@ -38,10 +34,26 @@ h3 {
   width: 100%;
 }
 
+.about-me-section {
+  height: 380px;
+}
+
 .about-me,
 .about-me-text {
   font-family: 'Heebo', sans-serif;
   width: 100%;
+}
+
+.about-me {
+  display: inline-block;
+  float: left;
+  width: 49%;
+}
+
+.about-me-photo {
+  display: inline-block;
+  float: right;
+  width: 49%;
 }
 
 .goals,
