@@ -5,9 +5,28 @@ $logo-blue: #9CC;
 $logo-red: #C33;
 $logo-yellow: #ff3;
 
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
 h3 {
   background-color: $logo-blue;
   width: 100%;
+}
+
+.logo-section {
+  margin-bottom: -20%;
+  margin-top: -20%;
+  padding: 0;
+}
+
+.button {
+  border-radius: 20px;
+  height: 80px;
+  width: 120px;
 }
 
 .tag-line {
