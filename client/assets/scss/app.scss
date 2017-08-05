@@ -4,6 +4,8 @@
 $logo-blue: #9CC;
 $logo-red: #C33;
 $logo-yellow: #ff3;
+$gray: #a8a8a8;
+$white: #fff;
 
 html, body {
   height: 100%;
@@ -14,19 +16,60 @@ html, body {
 
 h3 {
   background-color: $logo-blue;
+  margin: 0;
+  padding-left: 1%;
   width: 100%;
+}
+
+h2 {
+  color: $gray;
+  font-style: italic;
 }
 
 .logo-section {
   height: 600px;
-  margin-top: 0%;
-  padding: 0;
+  margin-top: -20%;
+  padding-bottom: 0;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20%;
+}
+
+.button-link-text {
+  color: $white;
+}
+
+.about-me-section, .goals-section, .links-section {
+  display: table;
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.about-me-section, .goals-section {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.button-links {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button-links > a .button {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  width: 24%;
+  zoom: 1;
 }
 
 .button {
   border-radius: 20px;
   height: 80px;
-  width: 120px;
 }
 
 .tag-line {
@@ -34,31 +77,18 @@ h3 {
   width: 100%;
 }
 
-.about-me-section {
-  height: 380px;
-}
-
-.about-me,
-.about-me-text {
-  font-family: 'Heebo', sans-serif;
-  width: 100%;
+.tagline {
+  text-align: center;
 }
 
 .about-me {
   display: inline-block;
   float: left;
-  width: 49%;
+  width: 50%;
 }
 
 .about-me-photo {
   display: inline-block;
   float: right;
-  width: 49%;
-}
-
-.goals,
-.goals-text {
-  font-family: 'Heebo', sans-serif;
-  font-size: 22px;
-  width: 100%;
+  width: 50%;
 }
