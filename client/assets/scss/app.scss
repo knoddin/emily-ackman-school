@@ -40,6 +40,10 @@ p,
   font-family: 'Old Standard TT', serif;
 }
 
+p {
+  font-size: 18px;
+}
+
 h3 {
   // border-color: $logo-blue;
   // border-style: solid;
@@ -86,15 +90,15 @@ h2 {
 }
 
 .about-me-section, .goals-section, .currently-reading-section {
-//   display: table;
-//   height: 500px;
+  display: table;
+  // height: ;
   margin-bottom: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 2%;
   padding: 0;
 //   vertical-align: middle;
-  width: 80%;
+  width: 90%;
 }
 
 .about-me-text {
@@ -143,12 +147,14 @@ h2 {
   // width: 70%;
 }
 
-.goals-text-div {
+.goals-text {
   display: inline-block;
   float: right;
   padding-left: 1%;
   width: 50%;
 }
+
+
 
 .goals-photo {
   display: inline-block;
@@ -162,15 +168,22 @@ h2 {
   font-style: italic;
 }
 
-.bio-pic {
+.video {
   float: left;
-  max-height: 800px;
-  max-width: 500px;
   padding-right: 2%;
+}
+
+.bio-pic {
+  float: right;
+  margin-bottom: 5%;
+  max-height: 600px;
+  max-width: 47%;
+  padding-right: 3%;
 }
 
 .bio-pic2 {
   float: left;
   max-height: 800px;
-  max-width: 500px;
+  max-width: 47%;
+  padding-left: 3%;
 }
