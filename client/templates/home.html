@@ -3,20 +3,30 @@ name: home
 url: /home
 ---
 <header>
-  <h1 class="ea-header">EMILY ACKMAN FOR SCHOOL COMMITTEE<br>SOMERVILLE, WARD ONE</h1>
-  <div class="button-links">
-    <a class="button-link-text" ui-sref="bio"><button class="button">MORE ABOUT EMILY</button></a>
-    <a class="button-link-text" ng-href="https://www.facebook.com/emilyackmanforward1"><button class="button">FACEBOOK</button></a>
-    <a class="button-link-text" ng-href="mailto:emilyackmanforward1@gmail.com"><button class="button">VOLUNTEER</button></a>
-    <a class="button-link-text" ng-href="https://donorbox.org/emily-ackman"><button class="button">DONATE</button></a>
+  <div class="header-contents grid-container">
+  <div class="titles">
+    <div class="ea-header">
+    <h1 class="grid-container">EMILY ACKMAN<br> FOR<br>SCHOOL COMMITTEE<br>SOMERVILLE, WARD ONE</h1><br>
   </div>
+  <div class="email-address">
+    <h4 class="email-text">To volunteer to help:<br><a class="email-text" ng-href="mailto:emilyackmanforward1@gmail.com">emilyackmanforward1@gmail.com</a></h4>
+  </div>
+  </div>
+  <!-- <div class="email-address">
+    <h4>To volunteer to help:<br><a ng-href="mailto:emilyackmanforward1@gmail.com">emilyackmanforward1@gmail.com</a></h4>
+  </div> --><br>
+  <div class="button-links grid-container">
+    <a class="button-link-text" target="_blank" ui-sref="bio"><button class="button">MORE ABOUT EMILY</button></a>|
+    <a class="button-link-text" target="_blank" ng-href="https://www.facebook.com/emilyackmanforward1"><button class="button">FACEBOOK</button></a>|
+    <a class="button-link-text" target="_blank" ng-href="https://donorbox.org/emily-ackman"><button class="button">DONATE</button></a>
+  </div>
+</div>
 </header>
 <div class="grid-container">
-
   <div class="about-me-section">
       <h3>ABOUT EMILY</h3>
       <h4 class="tagline">Emily Ackman is the only educator running for School Committee in Ward One.</h4><br>
-      <p class="about-me-text"><img style="float: left; max-height: 250px;" class ="emily-bio-pic" alt="emily-pic" src="../assets/images/emily.jpg">I was born & raised in Cambridge, attending public schools from kindergarten through high school, then graduated from college at UMass Amherst.
+      <p class="about-me-text"><img style="float: left; max-height: 275px;" class ="emily-bio-pic" alt="emily-pic" src="../assets/images/emily.jpg">I was born & raised in Cambridge, attending public schools from kindergarten through high school, then graduated from college at UMass Amherst.
         I am a mother, educator, a homeowner in Ward 1, and I am on the board of East Somerville Main Streets. I have over a decade of experience in public education at all levels,
         from student, to teacher, administrator, and now education researcher. My commitment to the families of Ward 1, and all of Somerville, is that I will advocate for policies
         that will benefit students and families in Ward 1.
@@ -39,16 +49,14 @@ url: /home
           <li><p>Teach financial literacy starting in elementary school</p></li>
           <li><p>Ensure high speed internet access at home for all students</p></li>
         </ul>
-      <div class="goals-photo">
-        <img alt="reading" src="../assets/images/reading.jpg">
-      </div>
     </div>
   </div>
 
   <div class="currently-reading-section">
     <h3>CURRENTLY READING</h3>
     <!-- <div class="currently-reading"> -->
-      <div class="currently-reading-text">
+      <!-- <div class="currently-reading-text"> -->
+      <img class="reading-photo" alt="reading" src="../assets/images/reading.jpg">
         <p><span class="book-title">Secret History of Wonder Woman,</span><span class="book-author"> by Jill Lepore</span></p>
         <p><span class="book-title">The Summer Slide: What We Know and Can Do About Summer Learning Loss, </span><span class="book-author">edited by by Karl Alexander, Sarah Pitcock, and Matthew Boulay</span></p>
         <p><span class="book-title">I Am Malala: How One Girl Stood Up for Education and Changed the World, </span><span class="book-author"> by Christina Lamb, Malala Yousafzai, and Patricia McCormick</span></p>
@@ -56,7 +64,8 @@ url: /home
         <p><span class="book-title">You Can't Touch My Hair: And Other Things I Still Have to Explain, </span><span class="book-author"> by Phoebe Robinson</span></p>
         <p><span class="book-title">The Secret of Childhood, </span><span class="book-author"> by Maria Montessori</span></p>
         <p><span class="book-title">Shrill: Notes from a Loud Woman, </span><span class="book-author"> by Lindy West</span></p>
-      </div>
+      <!-- </div> -->
+        <!-- <img class="reading-photo" alt="reading" src="../assets/images/reading.jpg"> -->
     <!-- </div> -->
   </div>
 </div>
