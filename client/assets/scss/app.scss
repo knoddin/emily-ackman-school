@@ -31,14 +31,7 @@ h1, .email-text, .ea-header, .button-links {
   width: 90%;
 }
 
-// .ea-header, .email-address {
-//   // padding-left: 1%;
-//   // padding-right: 1%;
-//   width: 46%;
-// }
-
 .titles {
-  // float: left;
   margin-right: 5%;
   min-height: 250px;
   padding: 0;
@@ -57,11 +50,6 @@ h1, .email-text, .ea-header, .button-links {
   text-align: right;
   width: 50%;
 }
-
-// .button-links {
-//   margin-left: 5%;
-//   padding: 1%;
-// }
 
 .button, .ea-header {
   font-family: 'Heebo', sans-serif;
@@ -90,9 +78,6 @@ h3 {
   color: $gray;
   height: auto;
   margin-top: 2%;
-  // padding-left: 1%;
-  // padding-top: 50px;
-  // text-align: center;
   width: 100%;
 }
 
@@ -132,12 +117,9 @@ h2 {
 .about-me-section, .goals-section, .currently-reading-section {
   display: table;
   height: auto;
-  // margin-bottom: 2%;
   margin-left: 5%;
   margin-right: 5%;
-  // margin-top: 2%;
   padding: 1%;
-//   vertical-align: middle;
   width: 90%;
 }
 
@@ -167,7 +149,6 @@ h2 {
 
 .button {
   background-color: $logo-blue;
-  // border-radius: 20px;
   font-size: 18px;
   height: 60px;
 }
@@ -181,9 +162,7 @@ h2 {
 }
 
 .about-me {
-  // display: inline-block;
   padding-right: 1%;
-  // width: 70%;
 }
 
 .reading-photo {
