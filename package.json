@@ -2,8 +2,8 @@
   "name": "foundation-apps-template",
   "version": "1.2.0",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp build --production"
+    "start": "npm start",
+    "build": "npm start build"
   },
   "engines": {
     "node": "4.7.2",
