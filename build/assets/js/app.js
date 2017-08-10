@@ -1,1 +1,34 @@
-!function(){"use strict";function n(n,i){n.otherwise("/"),i.html5Mode({enabled:!1,requireBase:!1}),i.hashPrefix("!")}function i(){FastClick.attach(document.body)}angular.module("application",["ui.router","ngAnimate","foundation","foundation.dynamicRouting","foundation.dynamicRouting.animations"]).config(n).run(i),n.$inject=["$urlRouterProvider","$locationProvider"]}();
+(function() {
+  'use strict';
+
+  angular.module('application', [
+    'ui.router',
+    'ngAnimate',
+
+    //foundation
+    'foundation',
+    'foundation.dynamicRouting',
+    'foundation.dynamicRouting.animations'
+  ])
+    .config(config)
+    .run(run)
+  ;
+
+  config.$inject = ['$urlRouterProvider', '$locationProvider'];
+
+  function config($urlProvider, $locationProvider) {
+    $urlProvider.otherwise('/');
+
+    $locationProvider.html5Mode({
+      enabled:false,
+      requireBase: false
+    });
+
+    $locationProvider.hashPrefix('!');
+  }
+
+  function run() {
+    FastClick.attach(document.body);
+  }
+
+})();
