@@ -70,7 +70,7 @@ gulp.task('copy:templates', function() {
   return gulp.src('./client/templates/**/*.html')
     .pipe(router({
       path: 'build/assets/js/routes.js',
-      root: 'client'
+      root: 'build'
     }))
     .pipe(gulp.dest('./build/templates'))
   ;
