@@ -25,17 +25,17 @@ h1, .email-text, .ea-header, .button-links {
   color: $white;
 }
 
-.header-contents {
-  margin-right: 5%;
-  padding: 1%;
-  width: 90%;
-}
+// .header-contents {
+//   margin-right: 5%;
+//   padding: 1%;
+//   width: 90%;
+// }
 
 .titles {
-  margin-right: 5%;
+  // margin-right: 5%;
   min-height: 250px;
-  padding: 0;
-  width: 90%;
+  // padding: 0;
+  // width: 90%;
 }
 
 .ea-header {
@@ -114,7 +114,7 @@ h2 {
   color: $white;
 }
 
-.about-me-section, .goals-section, .currently-reading-section {
+.about-me-section, .goals-section, .currently-reading-section, .titles{
   display: table;
   height: auto;
   margin-left: 5%;

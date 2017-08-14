@@ -5896,16 +5896,8 @@ header {
 h1, .email-text, .ea-header, .button-links {
   color: #fff; }
 
-.header-contents {
-  margin-right: 5%;
-  padding: 1%;
-  width: 90%; }
-
 .titles {
-  margin-right: 5%;
-  min-height: 250px;
-  padding: 0;
-  width: 90%; }
+  min-height: 250px; }
 
 .ea-header {
   float: left;
@@ -5971,7 +5963,7 @@ h2 {
 .button-link-text {
   color: #fff; }
 
-.about-me-section, .goals-section, .currently-reading-section {
+.about-me-section, .goals-section, .currently-reading-section, .titles {
   display: table;
   height: auto;
   margin-left: 5%;
